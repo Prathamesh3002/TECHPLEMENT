@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Online Course Selling</title>
+</head>
+
+<body>
+    <header role="banner">
+        <div class="header-content">
+            <img src="logo.png" alt="Online Classes Logo" class="logo">
+            <h1 class="site-name">CODEBOOK Online Classes</h1>
+        </div>
+        <nav role="navigation">
+            <ul class="nav-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="menu-toggle" aria-label="Toggle navigation menu">Menu</button>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="home" role="main">
+            <h2>Welcome to Our Online Courses</h2>
+            <p>Discover a range of courses to enhance your skills and knowledge.</p>
+        </section>
+
+        <section id="courses">
+            <h2>Our Courses</h2>
+            <div class="course-list">
+                <div class="course-item">Frontend Development</div>
+                <div class="course-item">Backend Development</div>
+                <div class="course-item">Full-Stack Development</div>
+                <div class="course-item">Python Development</div>
+                <div class="course-item">Java Development</div>
+                <div class="course-item">Android Development</div>
+                <div class="course-item">Game Development Using Unity</div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Learn more about our mission and the team behind our courses. The Online Education Team consists of educators, tech enthusiasts, and course developers with extensive experience in teaching and software development. 
+			The technical team is responsible for website development and maintenance, while the support and administration team assists students with queries and issues. 
+			The mission is to democratize education by making high-quality online courses accessible worldwide. 
+			The team's motivation is a shared belief in the power of education and a desire to bridge the gap in accessibility. 
+			Future goals include expanding course offerings, enhancing the learning experience, reaching learners globally, fostering a strong community, and continuously improving courses and services based on student feedback.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <div class="form-buttons">
+                    <button type="submit">Submit</button>
+                    <button type="button" id="clear-button">Clear</button>
+                </div>
+            </form>
+            <div class="branch-contacts">
+                <h3>Our Branches</h3>
+                <ul>
+                    <li>
+                        <strong>Mumbai</strong><br>
+                        Address: 123, ABC Street, Mumbai<br>
+                        Phone: +91-12345-67890<br>
+                        Email: mumbai@onlineclasses.com
+                    </li>
+                    <li>
+                        <strong>Chennai</strong><br>
+                        Address: 456, DEF Street, Chennai<br>
+                        Phone: +91-12345-67891<br>
+                        Email: chennai@onlineclasses.com
+                    </li>
+                    <li>
+                        <strong>Pune</strong><br>
+                        Address: 789, GHI Street, Pune<br>
+                        Phone: +91-12345-67892<br>
+                        Email: pune@onlineclasses.com
+                    </li>
+                    <li>
+                        <strong>Ahmedabad</strong><br>
+                        Address: 101, JKL Street, Ahmedabad<br>
+                        Phone: +91-12345-67893<br>
+                        Email: ahmedabad@onlineclasses.com
+                    </li>
+                    <li>
+                        <strong>New Delhi</strong><br>
+                        Address: 202, MNO Street, New Delhi<br>
+                        Phone: +91-12345-67894<br>
+                        Email: delhi@onlineclasses.com
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <p>&copy; 2024 Online Course Selling. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
